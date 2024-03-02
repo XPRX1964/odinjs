@@ -2,5 +2,112 @@
   <head>
     <script src="script.js"></script>
   </head>
-  <body></body>
+  <body
+    style="
+      background-color: rgb(49, 45, 45);
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <div
+      id="player"
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        flex: 1;
+        height: 100%;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <div
+          style="
+            font-size: 100px;
+            color: beige;
+            margin-bottom: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            margin-bottom: 200px;
+            flex: 1;
+          "
+        >
+          Player Score
+        </div>
+        <div id="playerscore" style="font-size: 100px; color: beige">0</div>
+      </div>
+    </div>
+    <div
+      class="container"
+      style="display: flex; align-items: center; gap: 10px"
+    >
+      <div>
+        <div
+          class="options"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            gap: 20px;
+          "
+        >
+          <img src="rock.jpg" id="rock" />
+          <img src="paper.jpg" id="paper" />
+          <img
+            src="scissors.png"
+            id="scissors"
+            style="width: 720px; height: 1000px"
+          />
+        </div>
+        <div
+          class="playandresult"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 100px;
+            gap: 100px;
+          "
+        >
+          <img src="shoot.png" id="playround" />
+        </div>
+      </div>
+    </div>
+    <div
+      id="player"
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 50px;
+        height: 100%;
+        flex: 1;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        "
+      ></div>
+      <div style="font-size: 100px; color: beige; margin-bottom: 200px">
+        computer Score
+      </div>
+      <div id="computerscore" style="font-size: 100px; color: beige">0</div>
+    </div>
+  </body>
 </html>
